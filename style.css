@@ -1,0 +1,70 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.hire-me{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(tomato,orange);
+    border-radius: 5%;
+    padding: 10px 20px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.liton-2{
+    border-radius: 50%;
+  border: 10px solid orange;
+}
+.box-shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px black;
+    border-radius: 10px;
+    padding: 40px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-1{
+    border-left: 10px solid tomato;
+}
+#border-2{
+    border-left: 10px solid orange;
+}
+.footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
